@@ -17,15 +17,15 @@ func main() {
 
 	//second way
 
-	// for i := range days {
-	// 	fmt.Println(days[i])
-	// }
+	for i := range days {
+		fmt.Println(days[i])
+	}
 
 	// thid way
 
-	// for index, day := range days {
-	// 	fmt.Printf("%v %v \n", index, day)
-	// }
+	for index, day := range days {
+		fmt.Printf("%v %v \n", index, day)
+	}
 
 	//while loop
 	rogueValue := 1
